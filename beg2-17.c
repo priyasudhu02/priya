@@ -1,0 +1,34 @@
+#include<conio.h>
+void main()
+{
+int a,l=0,s=0,c,r,i,t1,t2;;
+clrscr();
+scanf("%d",&a);
+t1=a;
+t2=a;
+while(a>0)
+{
+a=a/10;
+l++;
+}
+while(t1>0)
+{
+c=1;
+r=t1%10;
+for(i=0;i<l;i++)
+{
+c=c*r;
+}
+s=s+c;
+t1=t1/10;
+}
+if(s==t2)
+{
+printf("yes");
+}
+else
+{
+printf("No");
+}
+getch();
+}
