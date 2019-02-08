@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 int a,b,c,d,x,gcd,lcm;
@@ -17,5 +16,4 @@ a=x;
 gcd=a;
 lcm=(c*d)/gcd;
 printf("\nlcm is %d",lcm);
-getch();
 }
