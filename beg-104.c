@@ -1,12 +1,12 @@
 #include <stdio.h>
 	int main() 
 	{
-	    int a,i,b,pro=1;
+	    int a,i,b,c=1;
 	    scanf("%d%d",&a,&b);
 	    for(i=1;i<=b;i++)
 	    {
-	     pro=pro*a;
+	     c=c*a;
 	    }
-	    printf("%d",pro);
+	    printf("%d",c);
 		
 	}
