@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main()
-{
+void main(){
     char a[100],b[100];
     int i,c=0,n=0,j=0;
     scanf("%s",a);
@@ -36,5 +35,4 @@ int main()
     {
         printf("no");
     }
-    return 0;
 }
